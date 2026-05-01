@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StreamEvent",
+  "description": "WebSocket event contract between frontend and backend",
+  "type": "object",
+  "required": ["type"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["agent_selected", "message", "tool_call", "thinking", "done", "error"]
+    },
+    "content": { "type": "string" },
+    "agent": { "type": "string" },
+    "metadata": { "type": "object" }
+  }
+}
