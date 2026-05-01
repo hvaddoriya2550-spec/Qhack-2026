@@ -93,7 +93,7 @@ The supervisor auto-chains phases and only pauses for meaningful installer input
 # Prerequisites: Python 3.11+, Node.js 18+, Git
 
 # Clone
-git clone https://github.com/Chintan-collab/Qhack-2026.git
+git clone https://github.com/hvaddoriya2550-spec/Qhack-2026.git
 cd Qhack-2026
 
 # Setup
